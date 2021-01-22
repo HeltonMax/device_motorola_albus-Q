@@ -17,7 +17,7 @@
 $(call inherit-product, device/motorola/albus/device.mk)
 
 # Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
@@ -25,7 +25,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := aosp_albus
+PRODUCT_NAME := rr_albus
 PRODUCT_DEVICE := albus
 PRODUCT_MODEL := Moto Z2 Play
 
