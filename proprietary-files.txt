@@ -533,14 +533,6 @@ vendor/lib/com.fingerprints.extension@1.0.so
 # Display Panels
 vendor/firmware/synaptics-s3508sga-17022300-255c40-albus.tdat
 
-# DTV
--vendor/app/DTVPlayer/DTVPlayer.apk
--vendor/app/DTVService/DTVService.apk
-vendor/etc/permissions/com.motorola.hardware.dtv.xml
-vendor/etc/permissions/mot_dtv_permissions.xml
-vendor/lib64/libdtvhal.so|f2ac1307ed9dbe3da1b3a1da5b947da1b085b62c
-vendor/lib64/libdtvtuner.so|1667ff29c199f9ae9abe1d57f9a43300ab594b07
-
 # Moto Mods - beckham:9/PPWS29.131-27-1-27
 etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf|4cc9a36b67358d8eb8ab09d68d6080d533e817f7
 etc/permissions/com.motorola.aov.xml|418ca6e4e15ee22bd482fcc4069273a1537ea64d
@@ -565,11 +557,6 @@ vendor/lib64/libmodmanager.so|5d8e8be77b3ff6a0a5b5848443ff7a1fa31b7410
 -priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|76d78417e57e9f333f7b68ad7a680e7364b91987
 -priv-app/ModService/ModService.apk|d418527955614b444656efaa066ba58f70817c5a
 -priv-app/ProjectorApp/ProjectorApp.apk;PRESIGNED|c95fc74fd82aac0ca24be4ebefaf669541fe4828
-
-# Moto Health from Nash PPX29.159-33
-vendor/bin/hw/motorola.hardware.health@1.0-service|3d21763417a2087abf5ecce34a72d8bd56f2aa4f
-vendor/etc/init/motorola.hardware.health@1.0-service.rc|28f47f970593eb2c0768bd632a72f964146dcfe2
-vendor/lib64/motorola.hardware.health@1.0.so|c9ed5c4b1a38c6ef37d542a80f2d48af7d0a694c
 
 # NFC
 vendor/lib/libpn553_fw.so
